@@ -1,0 +1,32 @@
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+logs/
+
+# Environment variables file
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package lock file (optional, depending on your project setup)
+npm-debug.log*
+
+# Build directories and temporary files
+/dist
+/build
+
+# IDE and editor specific files (for example, VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Optional: ignore test coverage or output files
+coverage/
+
+# MongoDB data folder (if any local MongoDB instance is being used)
+data/
